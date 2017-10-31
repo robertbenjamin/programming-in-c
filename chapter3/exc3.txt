@@ -1,9 +1,0 @@
-// useful resource: https://www.eecis.udel.edu/~breech/progteam/contests/one-on-one-fall99.1/valid-c-const.html
-
-0096 // Octal constants can only contain integers between 0 and 7
-0x10.5 // Hexadecimal floats require a exponent (e.g. 0x10.5p2 where 0x is a prefix indicating a hexadecimal value, 10.5 is the significand, and p2 indicates 10 to the power of 2)
-98.7U // Invalid suffix U on a floating constant
-1.2Fe-7 // Invalid suffix Fe-7 on a floating constant (1.2e-7 would be valid, don't need a F suffix on a literal floating constant)
-0X0G1 // Hexadecimal integer can only include characters from A - F
-17777s // An integer can only be followed by the suffix' u, U, l, or L
-15,000 // No commas are allowed in a integer

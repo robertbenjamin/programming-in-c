@@ -1,3 +1,0 @@
-char // Keyword for a type in C
-6_05 // Variable names cannot start with a digit
-A$ // Variable names must be alphanumeric
