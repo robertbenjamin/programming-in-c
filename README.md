@@ -7,7 +7,7 @@ This repo contains the exercises and example programs from Stephen G. Kochan's "
 - **Chapter 1** Some Fundamentals (No exercises)
 - [**Chapter 2**](chapter-2/chapter-2.md) Compiling and Running Your First Program
 - [**Chapter 3**](chapter-3/chapter-3.md) Variables, Data Types, and Arithmetic Expressions
-- **Chapter 4** Program Looping
+- [**Chapter 4**](chapter-4/chapter-4.md) Program Looping
 - **Chapter 5** Making Decisions
 - **Chapter 6** Working with Arrays
 - **Chapter 7** Working with Functions
