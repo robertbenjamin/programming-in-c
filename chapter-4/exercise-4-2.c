@@ -14,4 +14,6 @@ int main(void) {
     numberSquared = number * number;
     printf("  %2i          %3i\n", number, numberSquared);
   }
+
+  return 0;
 }

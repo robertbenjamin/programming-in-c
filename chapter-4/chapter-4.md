@@ -22,3 +22,13 @@ Type in and run the nine programs presented in this chapter.
 Write a program to generate and display a table of n and n^2, for integer values of n ranging from 1 to 10.
 
 - [Exercise 4.2](exercise-4-2.c)
+
+### 3.
+
+Write a program that generates a table of triangular numbers for every fifth triangular number using the following formula:
+
+```c
+triangularNumber = n (n + 1) / 2
+```
+
+- [Exercise 4.3](exercise-4-3.c)
