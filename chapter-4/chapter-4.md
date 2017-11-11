@@ -32,3 +32,25 @@ triangularNumber = n (n + 1) / 2
 ```
 
 - [Exercise 4.3](exercise-4-3.c)
+
+### 4.
+
+Write a program that generates a table of factorials from 1 to 10.
+
+- [Exercise 4.4](exercise-4-4.c)
+
+### 5.
+
+Properly format the example program given in the textbook.
+
+- [Exercise 4.5](exercise-4-5.c)
+
+### 6.
+
+Substitute the printf() statement in [Program 4.3](program-4-3.c) for a left-justified statement using the `-` sign. Compare the outputs.
+
+- [Exercise 4.6](exercise-4-6.c)
+
+*Answer:*
+
+Using a left-justified symbol in the printf() statement along with a field width specification means that, as expected, numbers are aligned to the left side of the max field width rather than the right. If your field width specification is 3, single-digit integers will start on the left of the 3 denoted spaces, and fill in to the right as they reach two or three digits in length.
