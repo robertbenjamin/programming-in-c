@@ -1,11 +1,13 @@
 # Programming in C
 
+_The Gitbook for this repo is currently in the early stages, please don't expect everything to work properly._
+
 This repo contains the exercises and example programs from Stephen G. Kochan's "Programming in C" book. This readme will be updated as I work through the book and complete the exercises. Once finished, I plan to go back through and put together a summary of each chapter, bullet-point style!
 
 ## Table of Contents
 
 * **Chapter 1** Some Fundamentals \(No exercises\)
-* [**Chapter 2**](/chapter-2.md "Chapter 2") Compiling and Running Your First Program
+* [**Chapter 2**](/chapter-2/chapter-2.md "Chapter 2") Compiling and Running Your First Program
 * [**Chapter 3**](/chapter-3/chapter-3.md "Chapter 3") Variables, Data Types, and Arithmetic Expressions
 * [**Chapter 4**](/chapter-4/chapter-4.md "Chapter 4") Program Looping
 * **Chapter 5** Making Decisions

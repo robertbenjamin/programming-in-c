@@ -54,3 +54,17 @@ Substitute the printf() statement in [Program 4.3](program-4-3.c) for a left-jus
 *Answer:*
 
 Using a left-justified symbol in the printf() statement along with a field width specification means that, as expected, numbers are aligned to the left side of the max field width rather than the right. If your field width specification is 3, single-digit integers will start on the left of the 3 denoted spaces, and fill in to the right as they reach two or three digits in length.
+
+### 7.
+Determine the purpose of using a decimal point before the field width specification in a printf() statement.
+
+- [Exercise 4.7](exercise-4-7.c)
+
+*Answer:*
+
+Using a decimal point in a field width specificer allows you to tell the compiler how many decimal points you want included. For example, `%4.2i` would tell the compiler you want to print an integer of total length 4, two digits of which should be after the decimal point.
+
+### 8.
+Modify [Program 4.5](program-4-5.c) to allow the user to type in the number of triangular numbers they want to calculate.
+
+- [Exercise 4.8](exercise-4-8.c)
