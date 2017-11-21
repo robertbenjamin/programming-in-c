@@ -1,23 +1,28 @@
+// Rewrite of program 4.5 using while statements
+
 #include <stdio.h>
 
 int main(void) {
   int n;
   int number;
   int triangularNumber;
-  int counter;
+  int counter = 1;
 
-  for (counter = 1; counter <= 5; counter++) {
+  do {
     printf("What triangular number do you want? ");
     scanf("%i", &number);
 
     triangularNumber = 0;
+    n = 1;
 
-    for (n = 1; n <= number; n++) {
+    do {
       triangularNumber += n;
-    }
+      n++;
+    } while (n <= number);
 
     printf("Triangular number %i is %i\n\n", number, triangularNumber);
-  }
+    counter++;
+  } while (counter <= 5);
 
    return 0;
 }

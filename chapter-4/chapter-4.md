@@ -68,3 +68,23 @@ Using a decimal point in a field width specificer allows you to tell the compile
 Modify [Program 4.5](program-4-5.c) to allow the user to type in the number of triangular numbers they want to calculate.
 
 - [Exercise 4.8](exercise-4-8.c)
+
+### 9.
+Rewrite Program 4.2 through 4.5, replacing all uses of the _for_ statement with equivalent _while_ statements.
+
+- [Exercise 4.9.1 (Based on Program 4.2)](exercise-4-9-1.c)
+- [Exercise 4.9.2 (Based on Program 4.3)](exercise-4-9-2.c)
+- [Exercise 4.9.3 (Based on Program 4.4)](exercise-4-9-3.c)
+- [Exercise 4.9.4 (Based on Program 4.5)](exercise-4-9-4.c)
+
+### 10.
+What happens if you type a negative number into [Program 4.8](program-4-8.c)? Try it and see.
+
+*Answer:*
+
+Since the modulo operator sometimes returns negative numbers, the program still reverses the numbers correctly but sometimes prepends a minus sign to each digit! A way to fix this would be to detect a minus sign at the beginning, prepend a minus sign to the beginning of the reversed number, then run the while loop on the equivalent positive number as usual.
+
+### 11.
+Write a program that calculates the sum of the digits of an integer. FOr example, the sum of the digits of the number 1234 would be `1 + 2 + 3 + 4`, or 10. The program should accept any arbitrary integer typed in by a user.
+
+- [Exercise 4.11](exercise-4-11.c)

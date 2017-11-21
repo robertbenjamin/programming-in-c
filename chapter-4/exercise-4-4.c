@@ -10,7 +10,6 @@ int main(void) {
     int currentIteration = 1;
 
     for (int x = 1; x <= i; x++) {
-      // printf("i is %i, x is %i.\n", i, x);
       currentIteration = currentIteration * x;
     }
 
