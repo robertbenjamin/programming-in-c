@@ -29,7 +29,7 @@ Write a program that takes two numbers from user input and tells the user whethe
 
 ### 3.
 
-Write a program that takes in to integers and displays the results of dividing the first by the second, to three-decimal-place accuracy.
+Write a program that takes in two integers and displays the results of dividing the first by the second, to three-decimal-place accuracy.
 
 - [Exercise 5.3](exercise-5-3.c)
 
