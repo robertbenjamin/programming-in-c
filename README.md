@@ -27,5 +27,5 @@ This repo contains the exercises and example programs from Stephen G. Kochan's "
 
 ## Notes
 
-All programs were edited with [Neovim](https://github.com/neovim/neovim) compiled using [make](https://www.gnu.org/software/make/) on macOS. If you find any bugs or something that could be improved, please write an [issue](https://github.com/robertbenjamin/programming-in-c/issues) or create a [pull request](https://github.com/robertbenjamin/programming-in-c/pulls).
+All programs were edited with [Neovim](https://github.com/neovim/neovim) and compiled using [make](https://www.gnu.org/software/make/) on macOS. If you find any bugs or something that could be improved, please write an [issue](https://github.com/robertbenjamin/programming-in-c/issues) or create a [pull request](https://github.com/robertbenjamin/programming-in-c/pulls).
 
